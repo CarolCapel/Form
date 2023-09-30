@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+body {
+  background-color: #5b0888;
+  font-family: "Mooli", sans-serif;
+}
+
+form {
+  background-color: #713abe;
+  height: 28rem;
+  width: 18.8rem;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+input,
+select,
+textarea {
+  background-color: transparent;
+  font-family: "Mooli", sans-serif;
+  text-align: center;
+  color: white;
+  height: 1.8rem;
+  width: 70%;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 4px;
+  border-bottom: 1.5px solid #9d76c1;
+  outline: none;
+}
+
+select {
+  background-color: rgb(157, 118, 193, 0.8);
+  width: 50%;
+  border: none;
+}
+
+textarea {
+  height: 8rem;
+  border: none;
+  border-bottom: 1.5px solid #9d76c1;
+  border-left: 1.5px solid #9d76c1;
+}
+
+.botao {
+  background-color: #9d76c1;
+  font-family: "Mooli", sans-serif;
+  margin-top: 1rem;
+  width: 50%;
+}
+
+input::placeholder {
+  font-family: "Mooli", sans-serif;
+  color: white;
+}
+
+input:focus, textarea:focus{
+    background-color: #9d76c1;
+    transition: all 0.35s ease-in-out;
+    width: 80%;
+}
+
+.botao:hover{
+    background-color: #E5CFF7;    
+    font-family: "Mooli", sans-serif;
+    font-weight: bold;
+    color: #5b0888;
+}
+
+.botao:active{
+    background-color: #E5CFF7;    
+    font-family: "Mooli", sans-serif;
+    font-weight: bold;
+    color: #5b0888;
+    border: 2px solid #5b0888;
+}
